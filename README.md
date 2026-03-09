@@ -1,4 +1,4 @@
-# FM
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/52e75771-21a1-4beb-8742-6d644c18e8c8" /># FM
 
 EXP NO: 4	GENERATION AND DETECTION OF FM
 
@@ -66,24 +66,57 @@ MODEL GRAPH:
 
 Program
 
+am=7.2;
+
+fm=448;
+
+
+ac=14.4;
+
+fc=4480;
+
+fs=44800;
+
+t=0:1/fs:2/fm;
+
+b=4.7;
+
+em=am*cos(2*3.14*fm*t);
+
+subplot(3,1,1);
+
+plot(t,em);
+
+ec=ac*cos(2*3.14*fc*t);
+
+subplot(3,1,2);
+
+plot(t,ec);
+
+efm = ac * cos((2*3.14*fc*t) + b * sin(2*3.14*fm*t));
+
+subplot(3,1,3);
+
+plot(t,efm);
+
+
 
 Output Waveform
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/caf54ef5-a133-4cd9-b84c-50038bf1e835" />
 
 
 
 Tabulation
 
 
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/0af97c7e-a8e7-466a-8458-2f8e01768470" />
 
 Calculation
 
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/6ea2ab33-7b1b-4a46-a1e8-ea6610a1fd42" />
 
 
-Frequency Deviation Practical = 
 
-Modulation Index Practical	= 
-
-Modulation Index Theoretical	=
 
 
 

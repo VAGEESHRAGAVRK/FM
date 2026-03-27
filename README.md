@@ -1,4 +1,3 @@
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/52e75771-21a1-4beb-8742-6d644c18e8c8" /># FM
 
 EXP NO: 4	GENERATION AND DETECTION OF FM
 
